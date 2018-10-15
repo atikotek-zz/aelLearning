@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-08-09T16:33:25.699+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/aemLearning/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PageProp"
+        sling:resourceType="aemLearning/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemLearning/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemLearning/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemLearning/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemLearning/components/content/text"
+                text="&lt;p>This is a content page&lt;/p>"
+                textIsRich="true"/>
+        </par>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <touchmulti
+                jcr:created="{Date}2018-08-09T16:29:07.461+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-08-09T16:33:25.692+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemLearning/components/content/touchmulti">
+                <products jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        path="/content/aemLearning/en/pageprop"
+                        product="MRF"
+                        show="yes"
+                        size="small"
+                        startDate="{Date}2018-08-09T16:29:00.000+05:30"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        path="/content/aemLearning/en/pageprop"
+                        product="CEAT"
+                        show="yes"
+                        size="medium"
+                        startDate="{Date}2018-08-15T16:30:00.000+05:30"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        path="/content/aemLearning/en/pageprop"
+                        product="JK"
+                        show="yes"
+                        size="large"
+                        startDate="{Date}2018-08-11T16:31:00.000+05:30"/>
+                </products>
+            </touchmulti>
+        </content>
+    </jcr:content>
+</jcr:root>

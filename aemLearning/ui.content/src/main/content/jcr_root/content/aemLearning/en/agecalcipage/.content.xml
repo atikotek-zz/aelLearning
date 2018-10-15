@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-08-02T12:07:27.241+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/aemLearning/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AgeCalciPage"
+        sling:resourceType="aemLearning/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemLearning/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemLearning/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemLearning/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemLearning/components/content/text"
+                text="&lt;p>This is a content page&lt;/p>"
+                textIsRich="true"/>
+        </par>
+        <avi
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <age_call
+                jcr:created="{Date}2018-07-24T16:05:07.604+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-07-24T16:05:24.649+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemLearning/components/content/age-call"
+                myUserSubmenu="[{&quot;title&quot;:&quot;Guru&quot;\,&quot;age&quot;:&quot;12&quot;},{&quot;title&quot;:&quot;Shiva&quot;\,&quot;age&quot;:&quot;23&quot;}]"/>
+            <age_call_309284508
+                jcr:created="{Date}2018-08-02T12:07:27.233+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-08-02T12:07:27.233+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemLearning/components/content/age-call"/>
+        </avi>
+    </jcr:content>
+</jcr:root>

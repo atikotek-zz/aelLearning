@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:ns1="http://ns.microsoft.com/photo/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d3b5ef7a-96ad-4704-beb0-0b9049e8cc0b">
+    <jcr:content
+        cq:name="Koala.jpg"
+        cq:parentPath="/content/dam/aemLearning/travel"
+        dam:assetState="processed"
+        dam:relativePath="aemLearning/travel/Koala.jpg"
+        jcr:lastModified="{Date}2018-07-12T15:37:36.230+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-07-09T17:09:58.774+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}96"
+            dam:Physicalheightininches="{Decimal}8.0"
+            dam:Physicalwidthindpi="{Long}96"
+            dam:Physicalwidthininches="{Decimal}10.666666984558105"
+            dam:Progressive="no"
+            dam:sha1="d71da59ad59f3fc638ad75d867e6d164e8835a37"
+            dam:size="{Long}781976"
+            dam:TimeCreated="113243+0530"
+            dc:creator="[Corbis]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:date="{Long}[20080211]"
+            dc:date_xmpArrayType="rdf:Seq"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-07-09T17:09:58.149+05:30"
+            dc:rights="© Corbis.  All Rights Reserved."
+            exif:DateTimeOriginal="{Date}2008-02-11T11:32:43.170+05:30"
+            jcr:lastModified="{Date}2018-07-09T17:39:28.962+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            ns1:Rating="{Long}63"
+            photoshop:DateCreated="{Date}2008-02-11T11:32:43.170+05:30"
+            tiff:ImageLength="{Long}768"
+            tiff:ImageWidth="{Long}1024"
+            xmp:CreateDate="{Date}2008-02-11T19:32:43.173Z"
+            xmp:ModifyDate="{Date}2009-03-12T13:48:28.000+05:30"
+            xmp:Rating="{Decimal}4"
+            xmpRights:Marked="{Boolean}true"
+            xmpRights:WebStatement="http://pro.corbis.com/search/searchresults.asp?txt=42-15564978&amp;openImage=42-15564978"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-04-24T14:42:29.933+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/aemLearning/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="TitlePage"
+        sling:resourceType="aemLearning/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemLearning/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemLearning/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemLearning/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <titleaemlearning_2051833134
+                jcr:created="{Date}2018-04-11T12:22:51.900+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-11T12:22:51.900+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemLearning/components/content/titleAEMLearning"/>
+            <text
+                jcr:lastModified="{Date}2018-04-24T14:34:47.151+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemLearning/components/content/text"
+                text="&lt;p>This is a content page&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <titleaemlearning
+                jcr:created="{Date}2018-04-10T15:45:22.103+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-11T19:03:09.426+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="&lt;p>Aem Developer training by Avinash&lt;/p>&#xd;&#xa;"
+                sling:resourceType="aemLearning/components/content/titleAEMLearning"
+                textIsRich="true"
+                type="h3"/>
+        </par>
+    </jcr:content>
+</jcr:root>

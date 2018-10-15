@@ -1,0 +1,60 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='htlajax'}" data-sly-unwrap/>
+<p data-sly-test="${properties.text}">Text property: ${properties.text}</p>
+
+
+<h1>AEM HTL AJAX Example</h1>
+
+
+
+<form method="#">
+
+ <table border="1" align="left">
+
+ <tr>
+ <td>
+
+
+  <tr>
+ <td>
+<label for="FirstName" id="FirstNameLabel" > First Name</label>
+ </td>
+ <td>
+<input id="FirstName" name="First Name"  type="text"  value="">
+ </td>
+ </tr> 
+
+ <tr>
+ <td>
+<label for="LastName" id="LastNameLabel" name="LastNameLabel">Last Name </label>
+ </td>
+ <td>
+<input id="LastName" name="Last Name" type="text" value="">
+ </td>
+ </tr> 
+
+
+
+
+
+ <tr>
+ <td></td>
+
+  <td>
+<textarea id="json" rows="4" cols="50">
+</textarea>
+ </td>
+
+ </tr> 
+
+ <tr>
+ <td></td>
+ <td>
+<input type="button" value="Submit"  name="submit" id="submit" value="Submit">
+
+ </td>
+
+ </tr> 
+
+ </table>
+
+</form>

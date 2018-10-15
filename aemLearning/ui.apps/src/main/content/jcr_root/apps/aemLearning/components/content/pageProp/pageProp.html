@@ -1,0 +1,37 @@
+<h1>Access Page Properties of current page</h1>
+
+
+<strong>resourceType:</strong> <p>${currentPage.getContentResource.getResourceType} </p><br>
+
+
+        <strong>cq:lastModified</strong>: <h4> ${pageProperties['cq:lastModified'].getTime.toString}</h4> <br>
+
+    <strong>jcr:created </strong>: <h4> ${pageProperties['jcr:created'].getTime.toString} </h4> <br>
+
+   <strong> Title </strong>:<h4>  ${pageProperties['jcr:title']} </h4><br>
+
+  <b>primary type: </b><h4> ${pageProperties['jcr:primaryType']} </h4><br>
+
+      ${properties.jcr:description}
+
+
+
+
+   <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.css @ categories='cq.pageprops'}" />
+
+
+<div data-sly-use.heroTextObject="com.demo.aemLearning.core.HeroTextComponent" data-sly-test="${heroTextObject}">
+       <h1>${heroTextObject.heroTextBean.headingText}</h1>
+       <p>${heroTextObject.heroTextBean.description}</p>    
+</div>
+
+
+
+
+
+
+
+
+
+
